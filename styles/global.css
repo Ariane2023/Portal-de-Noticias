@@ -40,17 +40,17 @@ h1, h2, h3 {
   font: inherit;
 }
 
+img {
+  max-width: 100%; /* Largura maxima que respeita a caixa*/
+}
+
 .container {
-  max-width: 1280px;/*largura máxima*/
+  max-width: 1280px;
   padding-inline: 32px;/*eixo horizontal*/
   margin-inline: auto;/*eixo horizontal*/
 }
 
-/* utilitary-first */
-.grid {
-  display: grid;
+main {
+  margin-top: 40px;
 }
 
-.grid-flow-col {
-  grid-auto-flow: column;
-}

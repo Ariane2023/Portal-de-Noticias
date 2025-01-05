@@ -1,0 +1,7 @@
+#featured {
+  img {
+    height: 100%; /* Elimina os espaços sobrando da imagem*/
+    object-fit: cover; /* tira o esticamento da imagem causado pela altura 100%*/
+    border-radius: 4px;
+  }
+}
