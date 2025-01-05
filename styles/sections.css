@@ -2,6 +2,25 @@
   img {
     height: 100%; /* Elimina os espaços sobrando da imagem*/
     object-fit: cover; /* tira o esticamento da imagem causado pela altura 100%*/
+    
+  }
+
+  .card {
     border-radius: 4px;
+    overflow: hidden;/* overflow significa transbordamento e hidden esconda*/
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      top: 50%;
+      background: linear-gradient(
+        180deg, 
+        transparent 0%, 
+        #020617 100%
+      );
+    }
   }
 }
+
